@@ -1,0 +1,26 @@
+{
+    "env":"debug",
+    "db":{
+      "uri":"mongodb://localhost",
+      "name":"sol_project"
+    },
+    "integrations":{
+      "algolia":{
+        "appID":"dummy",
+        "apiSecret":"dummy"
+      },
+      "magic":{
+        "apiSecret":"dummy"
+      }
+    },
+    "auth":{
+      "jwtType": "magic"
+    },
+    "logger": {
+      "format":"text",
+      "fields": {
+        "context" : "dbg"
+      },
+      "level":"5"
+    }
+  }
